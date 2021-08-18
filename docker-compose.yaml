@@ -1,6 +1,6 @@
 web:
     image: nginx
     volumes:
-     - /home/shkulipa:/usr/share/nginx/html
+     - $PWD:/usr/share/nginx/html
     ports:
-      - "8080:8080"
+      - "8080:80"
